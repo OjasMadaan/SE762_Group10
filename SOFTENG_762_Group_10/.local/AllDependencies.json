@@ -7571,15 +7571,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Sam\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "SOFTENG_762_Group_10",
       "projectName": "SOFTENG_762_Group_10",
-      "projectPath": "D:\\Uni\\PartIV\\Semester2\\SOFTENG762\\Project\\SE762_Group10\\SOFTENG_762_Group_10\\.local",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Uni\\PartIV\\Semester2\\SOFTENG762\\Project\\SE762_Group10\\SOFTENG_762_Group_10\\.local"
+      "projectPath": "C:\\Users\\Sam\\Documents\\UiPath\\SE762_Group10\\SOFTENG_762_Group_10\\.local",
+      "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sam\\Documents\\UiPath\\SE762_Group10\\SOFTENG_762_Group_10\\.local"
     },
     "frameworks": {
       "net461": {
@@ -7605,7 +7605,7 @@
             "version": "[21.10.6, 21.10.6]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Sam\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
