@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Weather_Warning_Sequence" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1205,2435" sap2010:WorkflowViewState.IdRef="Weather_Warning_Sequence_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Weather_Warning_Sequence" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1205,2373" sap2010:WorkflowViewState.IdRef="Weather_Warning_Sequence_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:um="clr-namespace:UiPath.Mail;assembly=UiPath.Mail.Activities" xmlns:umab="clr-namespace:UiPath.Mail.Activities.Business;assembly=UiPath.Mail.Activities" xmlns:umabh="clr-namespace:UiPath.Mail.Activities.Business.HtmlEditor;assembly=UiPath.Mail.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="84">
       <x:String>System.Activities</x:String>
@@ -75,13 +75,12 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Weather_Warning_Sequence" sap:VirtualizedContainerService.HintSize="782,2370" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Weather_Warning_Sequence" sap:VirtualizedContainerService.HintSize="782,2308" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Image" Name="warningImage" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_Emails" />
@@ -94,7 +93,6 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="740,22" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGIt31r/xiEmTfi0BnoqN0AAAAAACAAAAAAAQZgAAAAEAACAAAAAl4yOhpUltxITb/ZgFPLWZqscVuIrl+I7aek+Ivn41JQAAAAAOgAAAAAIAACAAAAAEaL5AIqDql0YQqe/gHCYHu++Hx2QROMLN0vswBG+axRAAAACEO3b24vQRJlNZtHGqrBDcQAAAAOS8NujvZ7JsfAxMZhv52XfuSkzkVkbWZa2cyRK8Fs3VuI1347ZSEQHaG+TxzG8w6eUOQrNzo3BUltfLzjgfCvU=" Result="[PwD]" />
     <ui:ReadRange AddHeaders="True" DataTable="[dt_Emails]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="740,87" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet3" WorkbookPath="data.xlsx">
       <ui:ReadRange.Range>
         <InArgument x:TypeArguments="x:String">
@@ -131,7 +129,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9d7ee192-318f-4b77-851b-8e0335e71ae8" InformativeScreenshot="c31a331993fe05565f9e5d9781b53cad" Selector="&lt;webctrl aaname='LowerWarning/Watch' parentid='sticky-bar-context-primary-section' tag='A' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9d7ee192-318f-4b77-851b-8e0335e71ae8" InformativeScreenshot="88f0fd8baa9b544f97178327a64ebe74" Selector="&lt;webctrl idx='8' parentid='sticky-bar-context-primary-section' tag='svg' /&gt;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -183,7 +181,7 @@
                           <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="510,84" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[CurrentRow(&quot;email&quot;).ToString]" />
                           <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'P'" sap:VirtualizedContainerService.HintSize="510,106" sap2010:WorkflowViewState.IdRef="GetValue_1">
                             <ui:GetValue.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="74a9240c-c662-473c-8590-79ace0acdb05" InformativeScreenshot="f202052b4fa9cf38c8782dc19d8cf065" Selector="&lt;html app='chrome.exe' title='National Severe Weather Information - MetService is New Zealand’s only authorised provider of Severe Weather Alerts' /&gt;&lt;webctrl parentid='sticky-bar-context-primary-section' tag='P' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="74a9240c-c662-473c-8590-79ace0acdb05" InformativeScreenshot="904f180f3914bef06d02ec235de0e907" Selector="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div' idx='2' parentid='sticky-bar-context-primary-section' tag='DIV' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
