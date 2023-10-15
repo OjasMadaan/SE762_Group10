@@ -8,7 +8,7 @@ This is an RPA bot that retrives and stores the maximum and minimum temprature f
 3. Install Google Chrome and its UiPath extension. Follow the instructions: [here](https://docs.uipath.com/studio/standalone/2023.4/user-guide/extension-for-chrome), To use an alternative web browser please install the associated extension.
 4. Open the file Weather_Reporter_Sequence.xaml for the weather aggregator
 5. Open the file Weather_Warning_Sequence.xaml for the warning system
-6. Click Run/Debug
+6. Click Run/Debug (ensure that the excel application is not in use before running the sequences)
 
 A Google chrome browser will open and begin its process. Please do not interupt the process or move the mouse during the process, otherwise it will end the process. The process will be completed when the browser is closed.
 
