@@ -19,7 +19,6 @@ Open data.xlsx to view data.
 - sheet1 contains all the towns we want to search for.
 - sheet2 stores all the data we have collected, e.g minimum/maximum temperature for a given town
 - sheet3 contains emails for users who want to recieve the weather warnings
-- sheet4 contains all the regions we check for warnings.
 
 ## Meet the team
 INFOSYS300/SOFTENG762
