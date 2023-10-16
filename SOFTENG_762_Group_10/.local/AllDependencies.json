@@ -7571,15 +7571,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adenm\\.nuget\\packages\\": {}
+    "C:\\Users\\omad882\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "SOFTENG_762_Group_10",
       "projectName": "SOFTENG_762_Group_10",
-      "projectPath": "C:\\Users\\adenm\\Desktop\\Uni\\2023\\Sem-2\\SOFTENG-762\\Project\\SE762_Group10\\SOFTENG_762_Group_10\\.local",
-      "packagesPath": "C:\\Users\\adenm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adenm\\Desktop\\Uni\\2023\\Sem-2\\SOFTENG-762\\Project\\SE762_Group10\\SOFTENG_762_Group_10\\.local"
+      "projectPath": "C:\\Users\\omad882\\Desktop\\SE762_Group10\\SOFTENG_762_Group_10\\.local",
+      "packagesPath": "C:\\Users\\omad882\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\omad882\\Desktop\\SE762_Group10\\SOFTENG_762_Group_10\\.local"
     },
     "frameworks": {
       "net461": {
