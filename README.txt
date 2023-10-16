@@ -31,3 +31,6 @@ INFOSYS300/SOFTENG762
 - Ojas Madaan
 - Sam Tian
 - Stanley Wu
+
+## Github
+View the git repository here: https://github.com/OjasMadaan/SE762_Group10
